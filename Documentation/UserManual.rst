@@ -2,25 +2,15 @@
 Users manual
 ============
 
-Documentation of how to use the extension, how it works, how to apply it, if it's a website plugin.
+The extension "Infinite Scrolling" is replacing the page browser at the bottom with an endless scrolling feature. This
+function has become popular with applications like Twitter and Facebook. When viewing a list of entries, more data
+records are automatically loaded from the server when you are scrolling down to the end of the page.
 
-Language should be non-technical, explaining, using small examples. Don't use to many acronyms unless they have been explained.
+The result is an improved user experience, since more (or all) data records can be viewed without navigating to the
+page browser and clicking on a link.
 
-Examples: For the "News" plugin this would be a manual showing how to create the news items, explaining the options etc.
+The Infinite Scrolling extension can be implemented in existing TYPO3 projects without changing the code of the
+extension plugin or the HTML template.
 
-Provide screenshots of a neutral Backend such as the Backend of the Introduction Package for instance. Have in mind that the User manual could possibly be re-used in a larger documentation compilation, for example when a company generates a documentation for its client.
-
-Target group: **Users**
-
-.. figure:: Images/UserManual/BackendView.png
-		:width: 500px
-		:alt: Backend view
-
-		Default Backend view (caption of the image)
-
-		The Backend view of TYPO3 after the user has clicked on module "Page". (legend of the image)
-
-FAQ
-====
-
-Possible subsection: FAQ
+The page browser only hidden on the page, not deleted. Therefore the page browser is still accessible, e.g. for screen
+readers.

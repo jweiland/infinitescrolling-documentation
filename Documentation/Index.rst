@@ -7,9 +7,9 @@
 .. Includes roles, substitutions, ...
 .. include:: _Inclusion.rst
 
-=================
-Extension Name
-=================
+==================
+Infinite Scrolling
+==================
 
 :Extension name: Infinite Scrolling
 :Extension key: infinitescrolling
@@ -36,10 +36,7 @@ a GNU/GPL CMS/Framework available from `www.typo3.org
 
 	UserManual
 	AdministratorManual
-	TyposcriptReference
-	DeveloperCorner
 	ProjectInformation
-	RestructuredtextHelp
 
 .. STILL TO ADD IN THIS DOCUMENT
 	@todo: add section about how screenshots can be automated. Pointer to PhantomJS could be added.
@@ -50,16 +47,16 @@ a GNU/GPL CMS/Framework available from `www.typo3.org
 What does it do?
 =================
 
-First of all, if you have any idea how this template can be improved, please, drop a note to our team_. Documentation is written in reST format. Please, refer to Help writing reStructuredText to get some insight regarding syntax and existing reST editors on the market.
+Many TYPO3 extension plugins provide a list view for output. Typically 5 to 20 data records are shown in list view [1],
+each with a link to the single view. If there are more than a predefined number of records to show, a page browser [2]
+is used to switch between pages of the list view (see image below):
 
-.. _team: http://forge.typo3.org/projects/typo3v4-official_extension_template/issues
+.. figure:: Images/infinite-scroll-tt-news-list.png
+		:width: 400px
+		:alt: Standard list view of tt_news with page browser at bottom
 
-Here should be given a brief overview of the extension. What does it do? What problem does it solve? Who is interested in this? Basically the document includes everything people need to know to decide, if they should go on with this extension.
+		Standard list view of tt_news with page browser at bottom
 
-.. figure:: Images/IntroductionPackage.png
-		:width: 500px
-		:alt: Introduction Package
+A working example can be seen at http://jweiland.net/aktuelles.html
 
-		Introduction Package just after installation (caption of the image)
 
-		How the Frontend of the Introduction Package looks like just after installation (legend of the image)
